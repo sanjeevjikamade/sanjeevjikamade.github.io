@@ -1,0 +1,27 @@
+{
+  "name": "kindle",
+  "version": "1.0.0",
+  "description": "kindle reading list",
+  "main": "kindle",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjeevjikamade/sanjeevjikamade.github.io.git"
+  },
+  "keywords": [
+    "kindle"
+  ],
+  "author": "sanjeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjeevjikamade/sanjeevjikamade.github.io/issues"
+  },
+  "homepage": "https://github.com/sanjeevjikamade/sanjeevjikamade.github.io#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.4"
+  }
+}

@@ -17,129 +17,63 @@
     </ul>
 
     <script>
-        function addLink() {
+        async function addLink() {
             const linkInput = document.getElementById('linkInput');
-            const linkList = document.getElementById('linkList');
-
-            // Get the user's input value
             const linkUrl = linkInput.value.trim();
 
-            // Check if the input is a valid URL
             if (isValidURL(linkUrl)) {
-                // Create a new list item for the hyperlink
-                const listItem = document.createElement('li');
+                try {
+                    const response = await fetch('/api/hyperlinks', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ link: linkUrl }),
+                    });
 
-                // Create a hyperlink element
-                const hyperlink = document.createElement('a');
-                hyperlink.href = linkUrl;
-                hyperlink.textContent = linkUrl;
-
-                // Create a button to remove the link
-                const removeButton = document.createElement('button');
-                const space = document.createElement('text');
-                removeButton.textContent = ' X ';
-                space.textContent = ' ';
-                removeButton.onclick = function () {
-                    removeLinkFromList(linkUrl);
-                };
-
-                // Append the hyperlink and remove button to the list item
-                listItem.appendChild(removeButton);
-                listItem.appendChild(space)
-                listItem.appendChild(hyperlink);
-
-                // Append the list item to the link list
-                linkList.appendChild(listItem);
-
-                // Save the link to Local Storage
-                saveLinkToLocalStorage(linkUrl);
-
-                // Clear the input field after adding the link
-                linkInput.value = '';
+                    if (response.ok) {
+                        linkInput.value = '';
+                        loadLinks();
+                    } else {
+                        alert('Failed to add the link. Please try again.');
+                    }
+                } catch (error) {
+                    alert('Failed to add the link. Please try again.');
+                }
             } else {
                 alert('Invalid URL format. Please enter a valid website link.');
             }
         }
 
+        async function loadLinks() {
+            const linkList = document.getElementById('linkList');
+            linkList.innerHTML = '';
+
+            try {
+                const response = await fetch('/api/hyperlinks');
+                const hyperlinks = await response.json();
+
+                hyperlinks.forEach(linkUrl => {
+                    const listItem = document.createElement('li');
+                    const hyperlink = document.createElement('a');
+                    hyperlink.href = linkUrl;
+                    hyperlink.textContent = linkUrl;
+                    listItem.appendChild(hyperlink);
+                    linkList.appendChild(listItem);
+                });
+            } catch (error) {
+                alert('Failed to load hyperlinks. Please refresh the page.');
+            }
+        }
+
         function isValidURL(url) {
-            // Regular expression to check if the URL is valid
             const urlRegex = /^(ftp|http|https):\/\/[^ "]+$/;
             return urlRegex.test(url);
         }
 
-        function saveLinkToLocalStorage(linkUrl) {
-            // Check if Local Storage is available in the browser
-            if (typeof(Storage) !== 'undefined') {
-                // Get the existing link list from Local Storage (if any)
-                const existingLinks = JSON.parse(localStorage.getItem('hyperlinkList')) || [];
-
-                // Add the new link to the list
-                existingLinks.push(linkUrl);
-
-                // Save the updated link list back to Local Storage
-                localStorage.setItem('hyperlinkList', JSON.stringify(existingLinks));
-            } else {
-                alert('Local Storage is not available in this browser. The list will not be saved.');
-            }
-        }
-
-        function removeLinkFromList(linkUrl) {
-            // Get the link list from Local Storage
-            const existingLinks = JSON.parse(localStorage.getItem('hyperlinkList')) || [];
-
-            // Remove the link from the array
-            const updatedLinks = existingLinks.filter(link => link !== linkUrl);
-
-            // Save the updated link list back to Local Storage
-            localStorage.setItem('hyperlinkList', JSON.stringify(updatedLinks));
-
-            // Remove the link from the list on the page
-            loadLinksFromLocalStorage();
-        }
-
-        function loadLinksFromLocalStorage() {
-            // Check if Local Storage is available in the browser
-            if (typeof(Storage) !== 'undefined') {
-                // Get the existing link list from Local Storage (if any)
-                const existingLinks = JSON.parse(localStorage.getItem('hyperlinkList')) || [];
-
-                // Clear the existing list
-                const linkList = document.getElementById('linkList');
-                linkList.innerHTML = '';
-
-                // Create list items for each saved link and display them
-                existingLinks.forEach(linkUrl => {
-                    const listItem = document.createElement('li');
-
-                    // Create a button to remove the link
-                    const removeButton = document.createElement('button');
-                    const space = document.createElement('text');
-                    removeButton.textContent = 'X';
-                    space.textContent = ' ';
-                    removeButton.onclick = function () {
-                        removeLinkFromList(linkUrl);
-                    };
-
-                    // Create a hyperlink element
-                    const hyperlink = document.createElement('a');
-                    hyperlink.href = linkUrl;
-                    hyperlink.textContent = linkUrl;
-
-                    // Append the hyperlink and remove button to the list item
-                    listItem.appendChild(removeButton);
-                    listItem.appendChild(space);
-                    listItem.appendChild(hyperlink);
-
-                    // Append the list item to the link list
-                    linkList.appendChild(listItem);
-                });
-            } else {
-                alert('Local Storage is not available in this browser. The list will not be saved.');
-            }
-        }
-
-        // Load saved links from Local Storage when the page loads
-        loadLinksFromLocalStorage();
+        document.addEventListener('DOMContentLoaded', () => {
+            loadLinks();
+        });
     </script>
 </body>
 </html>
