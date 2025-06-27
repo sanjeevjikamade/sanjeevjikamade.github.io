@@ -17,9 +17,10 @@ title: Sanjeev Jikamade
 description: Sanjeev Jikamade's personal website and blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sanjeevjikamade.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-repository: just-the-docs/just-the-docs # for github-metadata
+repository: sanjeevjikamade/sanjeevjikamade.github.io # for github-metadata
 
 permalink: pretty
+theme: "just-the-docs"
 
 defaults:
   - scope:
