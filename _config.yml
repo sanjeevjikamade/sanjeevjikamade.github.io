@@ -20,7 +20,6 @@ url: "https://sanjeevjikamade.github.io/" # the base hostname & protocol for you
 repository: sanjeevjikamade/sanjeevjikamade.github.io # for github-metadata
 
 permalink: pretty
-theme: "just-the-docs"
 
 defaults:
   - scope:
