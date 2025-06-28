@@ -30,23 +30,26 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Ahmed Tremo" />
+<meta property="og:title" content="Spegel - Stateless Local OCI Mirror" />
+<meta name="author" content="Ahmed Tremo" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="AhmedTremo, Blog, Github, Machine Learning, Python" />
-<meta property="og:description" content="AhmedTremo, Blog, Github, Machine Learning, Python" />
-<link rel="canonical" href="https://sanjeevjikamade.github.io/" />
-<meta property="og:url" content="https://sanjeevjikamade.github.io/" />
+<meta name="description" content="Spegel describes itself as a stateless, cluster-local OCI registry mirror. In this post, we’ll decipher what that means and explore why Spegel might be valuable for your Kubernetes (K8s) setup." />
+<meta property="og:description" content="Spegel describes itself as a stateless, cluster-local OCI registry mirror. In this post, we’ll decipher what that means and explore why Spegel might be valuable for your Kubernetes (K8s) setup." />
+<link rel="canonical" href="https://sanjeevjikamade.github.io/posts/Spegel-stateless-local-OCI-mirror/" />
+<meta property="og:url" content="https://sanjeevjikamade.github.io/posts/Spegel-stateless-local-OCI-mirror/" />
 <meta property="og:site_name" content="Ahmed Tremo" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-11-04T00:00:00+05:30" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Ahmed Tremo" />
+<meta property="twitter:title" content="Spegel - Stateless Local OCI Mirror" />
 <meta name="twitter:site" content="@tremooo" />
+<meta name="twitter:creator" content="@tremooo" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"AhmedTremo, Blog, Github, Machine Learning, Python","headline":"Ahmed Tremo","name":"Ahmed Tremo","sameAs":["https://twitter.com/tremooo","https://github.com/sanjeevjikamade","https://www.facebook.com/ahmed.tremo","https://www.linkedin.com/in/ahmedtremo"],"url":"https://sanjeevjikamade.github.io/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ahmed Tremo","url":"https://www.linkedin.com/in/ahmedtremo/"},"dateModified":"2024-11-04T00:00:00+05:30","datePublished":"2024-11-04T00:00:00+05:30","description":"Spegel describes itself as a stateless, cluster-local OCI registry mirror. In this post, we’ll decipher what that means and explore why Spegel might be valuable for your Kubernetes (K8s) setup.","headline":"Spegel - Stateless Local OCI Mirror","mainEntityOfPage":{"@type":"WebPage","@id":"https://sanjeevjikamade.github.io/posts/Spegel-stateless-local-OCI-mirror/"},"url":"https://sanjeevjikamade.github.io/posts/Spegel-stateless-local-OCI-mirror/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Ahmed Tremo
+  <title>Spegel - Stateless Local OCI Mirror | Ahmed Tremo
   </title>
 
   <!--
@@ -103,11 +106,16 @@
   <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.25.0/dist/tocbot.min.css">
+  
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
   
 
+  
+    <!-- Manific Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
   
 
   <!-- JavaScript -->
@@ -281,7 +289,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a href="/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
@@ -450,9 +458,23 @@
       
 
       
-        <!-- index page -->
-        <span>Home</span>
+        
+          
+            <span>
+              <a href="/">Home</a>
+            </span>
 
+          
+        
+          
+        
+          
+            
+              <span>Spegel - Stateless Local OCI Mirror</span>
+            
+
+          
+        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -462,7 +484,7 @@
     </button>
 
     <div id="topbar-title">
-      Ahmed Tremo
+      Post
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link">
@@ -516,6 +538,646 @@
 
 
 
+  
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+
+  
+
 
 <!-- Add header for code snippets -->
 
@@ -531,10 +1193,195 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
 
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
   
 
   
@@ -555,60 +1402,15 @@
 
 
 
+<article class="px-1">
+  <header>
+    <h1 data-toc-skip>Spegel - Stateless Local OCI Mirror</h1>
 
-
-
-
-
-<!-- Get pinned posts -->
-
-
-
-
-
-
-<!-- Get default posts -->
-
-
-
-
-
-
-
-
-
-
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  
-    <article class="card-wrapper card">
-      <a href="/posts/Spegel-stateless-local-OCI-mirror/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Spegel - Stateless Local OCI Mirror</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                
-
-
-
-
-
-                Spegel describes itself as a stateless, cluster-local OCI registry mirror. In this post, we’ll decipher what that means and explore why Spegel might be valuable for your Kubernetes (K8s) setup.
-
-Wh...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -621,306 +1423,275 @@ Wh...
   data-ts="1730658600"
   data-df="ll"
   
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
 >
   Nov  4, 2024
 </time>
 
+      </span>
 
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      OCI,
-                      Mirror,
-                      Spegel
-                  </span>
-                
-              </div>
+      <!-- lastmod date -->
+      
 
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          By
+
+          <em>
+            
               
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/How-to-Efficiently-serve-an-llm/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">How to Efficiently Serve an LLM?</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
+                <a href="https://www.linkedin.com/in/ahmedtremo/">Ahmed Tremo</a>
                 
+              
+            
+          </em>
+        </span>
+
+        <!-- read time -->
+        <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
 
 
 
 
 
-                How to Efficiently Serve an LLM
-
-LLMs, or Large Language Models, are named so because they can range from tens to hundreds of billions of parameters. Their utility is clear, as LLMs are setting new...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
 
 
 
 
-<time
-  
-  data-ts="1722816000"
-  data-df="ll"
-  
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="409 words"
 >
-  Aug  5, 2024
-</time>
+  <em>2 min</em> read</span>
 
+      </div>
+      <!-- .d-flex -->
+    </div>
+    <!-- .post-meta -->
+  </header>
 
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      LLM,
-                      Inference,
-                      Optimization,
-                      Serving
-                  </span>
-                
-              </div>
+  <div class="content">
+    <p><a href="https://github.com/spegel-org/spegel">Spegel</a> describes itself as a stateless, cluster-local OCI registry mirror. In this post, we’ll decipher what that means and explore why Spegel might be valuable for your Kubernetes (K8s) setup.</p>
 
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
+<h2 id="what-is-spegel"><span class="me-2">What is Spegel?</span><a href="#what-is-spegel" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ol>
+  <li><strong>Stateless</strong>: Spegel doesn’t store image manifests or layers itself; it relies on containerd’s store on the node.</li>
+  <li><strong>Local</strong>: It operates within your local K8s cluster.</li>
+  <li><strong>OCI Registry</strong>: It’s compliant with the OCI distribution specification.</li>
+  <li><strong>Mirror</strong>: It mirrors images from a remote registry to your local cluster. (<em>Fun fact: “Spegel” means mirror in Swedish.</em>)</li>
+</ol>
+
+<h2 id="why-use-spegel"><span class="me-2">Why Use Spegel?</span><a href="#why-use-spegel" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ol>
+  <li><strong>Reduce Bandwidth Usage</strong> to remote registries.</li>
+  <li><strong>Faster Image Pulls</strong> if images are cached within the K8s cluster.</li>
+  <li><strong>Fault Tolerance</strong> if the remote registry is unavailable.</li>
+</ol>
+
+<h2 id="how-spegel-works"><span class="me-2">How Spegel Works</span><a href="#how-spegel-works" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>This blog focuses on visual diagrams that illustrate Spegel’s inner workings, making it easier to map component connections and debug issues.</p>
+
+<h3 id="spegel-overview"><span class="me-2">Spegel Overview</span><a href="#spegel-overview" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Nodes in the cluster that need an image will first check if it’s available locally.</p>
+
+<ul>
+  <li>If <strong>available</strong>, they pull it directly from other nodes using the P2P network.</li>
+  <li>If <strong>not available</strong>, the system falls back to the remote registry.</li>
+</ul>
+
+<p><a href="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/overview_gif.gif" class="popup img-link  shimmer"><img src="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/overview_gif.gif" alt="Spegel Flow Diagram" loading="lazy"></a></p>
+
+<h2 id="spegel-visual-architecture-guide"><span class="me-2">Spegel: Visual Architecture Guide</span><a href="#spegel-visual-architecture-guide" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Let’s dive into Spegel’s architecture through a series of diagrams:</p>
+
+<h3 id="1-high-level-cluster-architecture"><span class="me-2">1. High-Level Cluster Architecture</span><a href="#1-high-level-cluster-architecture" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>This diagram shows how Spegel pods form a P2P network within the cluster. Each Spegel pod interacts with containerd and, if necessary, falls back to the external registry.</p>
+
+<p><a href="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/cluster_architecture.png" class="popup img-link  shimmer"><img src="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/cluster_architecture.png" alt="Cluster Architecture" loading="lazy"></a><strong>Cluster Architecture</strong></p>
+
+<h3 id="2-pod-component-architecture"><span class="me-2">2. Pod Component Architecture</span><a href="#2-pod-component-architecture" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Displays the components within a Spegel pod, including registry services, P2P components, and state management.</p>
+
+<p><a href="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/pod_component_architecture.png" class="popup img-link  shimmer"><img src="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/pod_component_architecture.png" alt="Pod Component Architecture" loading="lazy"></a><strong>Pod Component Architecture</strong></p>
+
+<h3 id="3-image-pull-flow"><span class="me-2">3. Image Pull Flow</span><a href="#3-image-pull-flow" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>This sequence shows how an image pull request is handled, covering both peer pulls and fallback to external registry.</p>
+
+<p><a href="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/image_pull_flow.png" class="popup img-link  shimmer"><img src="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/image_pull_flow.png" alt="Image Pull Flow" loading="lazy"></a><strong>Image Pull Flow</strong></p>
+
+<h3 id="4-p2p-network-formation"><span class="me-2">4. P2P Network Formation</span><a href="#4-p2p-network-formation" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Illustrates how nodes discover each other and form the P2P network through leader election and peer sharing.</p>
+
+<p><a href="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/p2p_network_formation.png" class="popup img-link  shimmer"><img src="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/p2p_network_formation.png" alt="P2P Network Formation" loading="lazy"></a><strong>P2P Network Formation</strong></p>
+
+<h3 id="5-state-management-and-content-advertisement"><span class="me-2">5. State Management and Content Advertisement</span><a href="#5-state-management-and-content-advertisement" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Depicts how content availability is maintained and advertised across the P2P network.</p>
+
+<p><a href="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/state_management_and_content_advertisement.png" class="popup img-link  shimmer"><img src="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/state_management_and_content_advertisement.png" alt="State Management and Content Advertisement" loading="lazy"></a><strong>State Management and Content Advertisement</strong></p>
+
+<h3 id="6-content-resolution-process"><span class="me-2">6. Content Resolution Process</span><a href="#6-content-resolution-process" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p><a href="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/content_resolution_process.png" class="popup img-link  shimmer"><img src="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/content_resolution_process.png" alt="Content Resolution Process" loading="lazy"></a><strong>Content Resolution Process</strong></p>
+
+<h3 id="7-data-flow-paths"><span class="me-2">7. Data Flow Paths</span><a href="#7-data-flow-paths" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Describes content and control flow within the system, including peer transfers and fallback.</p>
+
+<p><a href="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/data_flow_paths.png" class="popup img-link  shimmer"><img src="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/data_flow_paths.png" alt="Data Flow Paths" loading="lazy"></a><strong>Data Flow Paths</strong></p>
+
+<h3 id="8-failure-handling"><span class="me-2">8. Failure Handling</span><a href="#8-failure-handling" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Demonstrates failure handling scenarios within the system.</p>
+
+<p><a href="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/failure_handling.png" class="popup img-link  shimmer"><img src="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/failure_handling.png" alt="Failure Handling" loading="lazy"></a><strong>Failure Handling</strong></p>
+
+<h3 id="9-metrics-collection"><span class="me-2">9. Metrics Collection</span><a href="#9-metrics-collection" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Shows how metrics are collected and organized across the system components.</p>
+
+<p><a href="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/metrics_collection.png" class="popup img-link  shimmer"><img src="/assets/img/posts/2024-11-04-Spegel-stateless-local-OCI-mirror/metrics_collection.png" alt="Metrics Collection" loading="lazy"></a><strong>Metrics Collection</strong></p>
+
+<h2 id="conclusion"><span class="me-2">Conclusion</span><a href="#conclusion" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>I hope I gave a visual understanding of the Spegel project and its architecture. If you got intrigued, next step would be to dive into the source code at <a href="https://github.com/spegel-org/spegel/tree/main">Spegel GitHub</a>.</p>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/oci/">OCI</a>,
+          <a href="/categories/mirror/">Mirror</a>,
+          <a href="/categories/spegel/">Spegel</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/oci/"
+            class="post-tag no-text-decoration"
+          >OCI</a>
+        
+          <a
+            href="/tags/mirror/"
+            class="post-tag no-text-decoration"
+          >Mirror</a>
+        
+          <a
+            href="/tags/spegel/"
+            class="post-tag no-text-decoration"
+          >Spegel</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fsanjeevjikamade.github.io%2Fposts%2FSpegel-stateless-local-OCI-mirror%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin">
+        <i class="fa-fw fab fa-linkedin"></i>
       </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/the-tech-behind-tiktoks-addicitve-recommendation-system/" class="post-preview row g-0 flex-md-row-reverse">
-        
+    
 
-        
+      
 
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">The Tech Behind TikTok's Addictive Recommendation System</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                
-
-
-
-
-
-                Intro
-
-I’ve been using TikTok a lot lately and was curious about the tech behind TikTok’s addictive algorithm, the “Recommendation System.” I visited their official blog post but found limited deta...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701718200"
-  data-df="ll"
-  
->
-  Dec  5, 2023
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      TikTok,
-                      Recommendation Systems,
-                      Kafka,
-                      Flink
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
+      <a href="https://twitter.com/intent/tweet?text=Spegel%20-%20Stateless%20Local%20OCI%20Mirror%20-%20Ahmed%20Tremo&url=https%3A%2F%2Fsanjeevjikamade.github.io%2Fposts%2FSpegel-stateless-local-OCI-mirror%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fab fa-twitter"></i>
       </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/do-you-really-need-a-vector-database/" class="post-preview row g-0 flex-md-row-reverse">
-        
+    
 
-        
+      
 
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Do you really need a Vector Database?</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                
-
-
-
-
-
-                Do You Really Need a VectorDB?
-
-Everywhere I go, I see his face – “VectorDBs”. Seriously, with the rise of GenAI and the growing number of applications utilizing Large Language Models (LLMs), Vecto...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1700599800"
-  data-df="ll"
-  
->
-  Nov 22, 2023
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      LLMs,
-                      GenAI,
-                      VectorDBs,
-                      Embeddings
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Spegel%20-%20Stateless%20Local%20OCI%20Mirror%20-%20Ahmed%20Tremo&u=https%3A%2F%2Fsanjeevjikamade.github.io%2Fposts%2FSpegel-stateless-local-OCI-mirror%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
       </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/how-to-build-website/" class="post-preview row g-0 flex-md-row-reverse">
-        
+    
 
-        
+      
 
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Starting A Blog Hosted On Github Pages</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                
-
-
-
-
-
-                My first ever blog post
-
-I’ve been thinking about starting a blog for a while now and I was procrastinating quite a bit :D. But, I finally did it and here I am writing my first ever blog post. Supr...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1685639640"
-  data-df="ll"
-  
->
-  Jun  1, 2023
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Blogging,
-                      Tutorial
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fsanjeevjikamade.github.io%2Fposts%2FSpegel-stateless-local-OCI-mirror%2F&text=Spegel%20-%20Stateless%20Local%20OCI%20Mirror%20-%20Ahmed%20Tremo" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
       </a>
-    </article>
-  
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
 </div>
-<!-- #post-list -->
 
-
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
 
 
             
@@ -1452,12 +2223,94 @@ I’ve been thinking about starting a blog for a while now and I was procrastina
             </div>
 
             
+              
+              
+
+
+
+  <section id="toc-wrapper" class="ps-0 pe-4">
+    <h2 class="panel-heading ps-3 pt-2 mb-2">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/How-to-Efficiently-serve-an-llm/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>How to Efficiently Serve an LLM?</p>
+    </a>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
+  
+</nav>
+
+            
+              
+              <!--  The comments switcher -->
+
+
             
 
             <!-- The Footer -->
@@ -2018,6 +2871,9 @@ I’ve been thinking about starting a blog for a while now and I was procrastina
   
 
   
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
 
 
 
@@ -2089,16 +2945,37 @@ I’ve been thinking about starting a blog for a while now and I was procrastina
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js,npm/tocbot@4.25.0/dist/tocbot.min.js"></script>
 
 
 
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
