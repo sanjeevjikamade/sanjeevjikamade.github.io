@@ -29,6 +29,6 @@ I also bring expertise in data visualization tools like **Looker** and **Power B
 I'm a passionate learner who continually seeks opportunities to merge business acumen with technical innovation. If you're looking to unlock the power of data or brainstorm cutting-edge AI ideas, I’d love to connect!
 
 ![sanjeev-data](/assets/img/personal/sanjeev.jpg){: w="700" h="400" }  
-_Me exploring insights atop the world of data._
+_Me with Android robot._
 
 I’m best reached through [LinkedIn](https://www.linkedin.com/in/sanjeev-jikamade). Always open to conversations, ideas, and collaborations.
