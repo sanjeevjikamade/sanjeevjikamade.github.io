@@ -4,19 +4,31 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I'm Ahmed Tremo, an Applied Scientist at [Microsoft](https://www.microsoft.com/). I previously I worked as machine learning engineer working at [Dell Techonolgies](https://www.dell.com/) & a data engineer at [Lumin Systems](http://excelsystems-eg.com/).
+I'm Sanjeev Jikamade, a highly motivated Data Scientist with over a decade of experience in the tech industry, known for leveraging machine learning and data analysis to drive business growth in the digital marketing landscape.
 
-I graduated from The [German university in Cairo](https://www.guc.edu.eg/), with a bachelor's degree in computer engineering with an Excellent with honors grade.
+My career started with **6+ years as a Software Engineer**, where I built robust mobile and web applications—primarily for clients in the BFSI sector. This phase gave me a solid foundation in technical development and deep insights into practical digital marketing requirements.
 
-I've published a [whitepaper](https://infohub.delltechnologies.com/t/demand-forecasting-a-machine-learning-based-solution-to-forecast-demand-signals-for-dell-services/) describing the features, challenges, and benefits of the demand forecasting machine 
-learning-based solution I worked on at [Dell Technologies](https://www.dell.com/). I've also won the 1st place in [Dell Technologies Annual AI Hackathon](https://hacktrick.io/)
+For the **past 4+ years**, I have transitioned and thrived as a **Data Scientist**, focusing on extracting actionable insights from data using **Google Cloud Platform (GCP)** and advanced machine learning techniques. I am a **Certified GCP Professional Machine Learning Engineer**, with a strong grip on designing cloud-based, production-ready ML solutions.
 
-In my free time, I play football & go to the gym. Fun fact, My [bachelor thesis](https://github.com/AhmedTremo/FootballTactics) was about identifying football tactics using machine learning.
+I also bring expertise in data visualization tools like **Looker** and **Power BI**, which allows me to transform complex analytics into business-friendly narratives.
 
-Summer 2019, I spent 3 months in the US as a part of culture exchange program called [Work and Travel](https://en.wikipedia.org/wiki/Work_and_Travel_USA) where I worked at [Six Flags](https://www.sixflags.com/greatescape) as a ride operator. (was really fun)!
+---
 
-![tremo-mountain](/assets/img/personal/tremo-mountain.jpg){: w="700" h="400" }
-_Me at the top of [Mount Moses](https://en.wikipedia.org/wiki/Mount_Sinai), Sinai, Egypt_
+## 🧠 Data Science Expertise
 
+✔ Audience Segmentation & Targeting  
+✔ Media Mix Modeling  
+✔ Customer Data Platform (CDP) Development  
+✔ Generative AI for Tabular Data Querying  
+✔ Customer Lifetime Value (CLV) Prediction  
+✔ Customer Churn Prediction  
+✔ Custom Attribution Models  
 
-I’m best reached through [LinkedIn](https://www.linkedin.com/in/ahmedtremo/). I’m always open to interesting conversations and collaboration.
+---
+
+I'm a passionate learner who continually seeks opportunities to merge business acumen with technical innovation. If you're looking to unlock the power of data or brainstorm cutting-edge AI ideas, I’d love to connect!
+
+![sanjeev-data](/assets/img/personal/sanjeev.jpg){: w="700" h="400" }  
+_Me exploring insights atop the world of data._
+
+I’m best reached through [LinkedIn](https://www.linkedin.com/in/sanjeev-jikamade). Always open to conversations, ideas, and collaborations.

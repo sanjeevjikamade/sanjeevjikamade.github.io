@@ -18,12 +18,12 @@ timezone: Asia/Kolkata
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Ahmed Tremo # the main title
+title: Sanjeev Jikamade # the main title
 
-tagline: ML enthusiast # it will display as the sub-title
+tagline: ML Researcher # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  AhmedTremo, Blog, Github, Machine Learning, Python
+  Sanjeev, Blog, Github, Machine Learning, Python
   
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://sanjeevjikamade.github.io"
@@ -32,20 +32,20 @@ github:
   username: sanjeevjikamade # change to your github username
 
 twitter:
-  username: tremooo # change to your twitter username
+  username: sanjeevjikamade # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Ahmed Tremo
-  email: ahmedtremoo@gmail.com # change to your email address
+  name: Sanjeev Jikamade
+  email: sanjeev.jikamade@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/tremooo # change to your twitter homepage
     - https://github.com/sanjeevjikamade # change to your github homepage
     # Uncomment below to add more social links
-    - https://www.facebook.com/ahmed.tremo
-    - https://www.linkedin.com/in/ahmedtremo
+    # - https://www.facebook.com/ahmed.tremo
+    - https://www.linkedin.com/in/sanjeev-jikamde-18a9b264/
 
 google_site_verification: # fill in to your verification string
 
