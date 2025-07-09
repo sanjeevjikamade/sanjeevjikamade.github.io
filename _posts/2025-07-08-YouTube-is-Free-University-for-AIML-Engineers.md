@@ -1,6 +1,6 @@
 ---
 title: YouTube is Free University for AI/ML Engineers
-date: 2025-07-09 22:50 +0200
+date: 2025-07-08 22:50 +0200
 categories: [llms, genai, study, AIML, statisticcs]
 tags: [llms, genai, study, AIML, statisticcs]
 author: sanjeev
