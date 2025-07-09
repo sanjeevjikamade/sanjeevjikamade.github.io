@@ -4,7 +4,7 @@
   <id>https://sanjeevjikamade.github.io/</id>
   <title>Sanjeev Jikamade</title>
   <subtitle>Sanjeev, Blog, Github, Machine Learning, Python</subtitle>
-  <updated>2025-07-09T10:34:08+05:30</updated>
+  <updated>2025-07-09T11:08:57+05:30</updated>
   <author>
     <name>Sanjeev Jikamade</name>
     <uri>https://sanjeevjikamade.github.io/</uri>
@@ -17,6 +17,59 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>YouTube is Free University for AI/ML Engineers</title>
+    <link href="https://sanjeevjikamade.github.io/posts/YouTube-is-Free-University-for-AIML-Engineers/" rel="alternate" type="text/html" title="YouTube is Free University for AI/ML Engineers" />
+    <published>2025-07-09T02:20:00+05:30</published>
+  
+    <updated>2025-07-09T02:20:00+05:30</updated>
+  
+    <id>https://sanjeevjikamade.github.io/posts/YouTube-is-Free-University-for-AIML-Engineers/</id>
+    <content src="https://sanjeevjikamade.github.io/posts/YouTube-is-Free-University-for-AIML-Engineers/" />
+    <author>
+      <name>sanjeev</name>
+    </author>
+
+  
+    
+    <category term="llms" />
+    
+    <category term="genai" />
+    
+    <category term="study" />
+    
+    <category term="AIML" />
+    
+    <category term="statisticcs" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      YouTube is Free University for AI/ML Engineers
+
+These 10 channels will teach you more than any $5k bootcamp:
+
+
+  
+    Andrej Karpathy: Watch here
+Former OpenAI researcher teaches you to implement transformers, backpropagation, and neural networks line by line.
+  
+  
+    3Blue1Brown: Watch here
+Visual explanations of math behind machine learning. Makes complex concepts like backpropagation and l...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>

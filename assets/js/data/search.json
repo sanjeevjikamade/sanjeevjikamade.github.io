@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "YouTube is Free University for AI/ML Engineers",
+    "url": "/posts/YouTube-is-Free-University-for-AIML-Engineers/",
+    "categories": "llms, genai, study, AIML, statisticcs",
+    "tags": "llms, genai, study, AIML, statisticcs",
+    "date": "2025-07-09 02:20:00 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "YouTube is Free University for AI/ML EngineersThese 10 channels will teach you more than any $5k bootcamp:      Andrej Karpathy: Watch hereFormer OpenAI researcher teaches you to implement transfor...",
+    "content": "YouTube is Free University for AI/ML EngineersThese 10 channels will teach you more than any $5k bootcamp:      Andrej Karpathy: Watch hereFormer OpenAI researcher teaches you to implement transformers, backpropagation, and neural networks line by line.        3Blue1Brown: Watch hereVisual explanations of math behind machine learning. Makes complex concepts like backpropagation and linear algebra intuitive with beautiful animations.        StatQuest with Josh Starmer: Watch here10-15 minute videos explaining one ML concept each. Covers decision trees, random forests, SVMs, and regression with simple examples and clear diagrams.        sentdex: Watch hereComplete Python tutorials for real AI projects by Harrison Kinsley. Build trading bots, sentiment analysis tools, and computer vision apps with step-by-step coding walkthroughs.        Jeremy Howard: Watch herePractical deep learning course focused on getting results fast. Learn to build image classifiers and text models without getting lost in theory.        Krish Naik: Watch hereEnd-to-end ML project tutorials covering data cleaning to deployment. Shows you complete workflows using real datasets and industry tools.        MIT OpenCourseWare: Watch hereFull university-level AI courses from top professors. Access the same lectures on reinforcement learning and computer vision that MIT students get.        Serrano Academy: Watch hereComplex AI concepts explained with simple diagrams by Luis Serrano. Perfect for understanding transformers, attention mechanisms, and modern architectures visually.        DeepLearningAI: Watch hereAndrew Ng’s channel offering professional courses on ML/DL fundamentals. Features interviews with AI leaders.        Stanford Online: Watch hereLatest AI research papers explained in plain English. Stay updated with what’s happening in top AI labs.  "
+  },
+  
+  {
     "title": "Spegel - Stateless Local OCI Mirror",
     "url": "/posts/Spegel-stateless-local-OCI-mirror/",
     "categories": "OCI, Mirror, Spegel",
