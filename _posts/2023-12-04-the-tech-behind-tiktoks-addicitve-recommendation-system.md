@@ -3,7 +3,7 @@ title: The Tech Behind TikTok's Addictive Recommendation System
 date: 2023-12-04 21:30 +0200
 categories: [TikTok, Recommendation Systems, Kafka, Flink]
 tags: [tiktok, recommendation systems, kafka, flink]
-author: tremo
+author: sanjeev
 ---
 ## Intro
 
