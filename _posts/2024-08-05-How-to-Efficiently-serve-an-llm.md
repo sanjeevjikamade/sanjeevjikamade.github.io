@@ -3,7 +3,7 @@ title: How to Efficiently Serve an LLM?
 date: 2024-08-05 +05:30
 categories: [LLM, Inference, Optimization, Serving]
 tags: [LLM, inference, optimization, serving]
-author: tremo
+author: sanjeev
 ---
 
 ## How to Efficiently Serve an LLM
