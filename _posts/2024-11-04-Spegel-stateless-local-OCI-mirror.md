@@ -3,7 +3,7 @@ title: Spegel - Stateless Local OCI Mirror
 date: 2024-11-04
 categories: [OCI, Mirror, Spegel]
 tags: [OCI, Mirror, Spegel]
-author: tremo
+author: sanjeev
 ---
 
 [Spegel](https://github.com/spegel-org/spegel) describes itself as a stateless, cluster-local OCI registry mirror. In this post, we’ll decipher what that means and explore why Spegel might be valuable for your Kubernetes (K8s) setup.
